@@ -1,0 +1,7 @@
+{
+    "name":"Selectize Demo",
+    "dependencies": {
+        "jquery": "1.11.1",
+        "selectize":"0.11.2"
+    }
+}
