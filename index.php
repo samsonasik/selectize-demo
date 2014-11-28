@@ -34,7 +34,7 @@
 
             // onchange
             $("#province_id").change(function() {
-                $.post('./change-data', { 'province_id' : $(this).val() } , function(jsondata) {
+                $.post('./change-data.php', { 'province_id' : $(this).val() } , function(jsondata) {
                     var htmldata = '';
                     var new_value_options   = '[';
                     for (var key in jsondata) {
