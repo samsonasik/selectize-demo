@@ -18,12 +18,12 @@ if (isset($_POST['province_id'])) {
 
     if ($_POST['province_id'] == 2) {
         $data = [
-            3 => [
+            0 => [
                 'id' => 3,
                 'name' => 'Kudus',
             ],
-            4 => [
-                'id' => 2,
+            1 => [
+                'id' => 4,
                 'name' => 'Cirebon',
             ]
         ];
